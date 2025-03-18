@@ -71,18 +71,25 @@ h1 {
 .details-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
   font-size: 0.9em;
 }
 .value {
   color: var(--Cyan);
+  align-items: center;
 }
 .time {
   color: var(--Soft-blue);
 }
+.value, .time {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
 .line {
   border-top: 1px solid var(--Soft-blue);
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 .creator-container {
   display: flex;
