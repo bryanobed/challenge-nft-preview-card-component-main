@@ -71,7 +71,6 @@ h1 {
 .details-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 20px;
   font-size: 0.9em;
 }
@@ -82,7 +81,8 @@ h1 {
 .time {
   color: var(--Soft-blue);
 }
-.value, .time {
+.value,
+.time {
   display: flex;
   align-items: center;
   gap: 4px;
